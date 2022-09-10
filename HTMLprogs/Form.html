@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+
+<body>
+    <form>
+    <h3>Student Registration Form using HTML & CSS</h3>
+
+    
+        <table>
+            <tr>
+                <td>First Name : </td>
+                <td><input type="text" name="FirstName" maxlength="50" placeholder="enter your first name" required="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Last Name : </td>
+                <td><input type="text" name="LastName" maxlength="50" placeholder="enter your last name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email ID : </td>
+                <td><input type="email" name="email" maxlength="15" placeholder="enter your email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mobile Number : </td>
+                <td><input type="text" name="mobile" maxlength="10" placeholder="796xxxxxxx">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender : </td>
+                <td><input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+
+            <!-- <tr>
+                <td>Date of Birth : </td>
+                <td>
+                    <select name="BirthDay" id="Birth_Day">
+                        <option value="-1">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <select name="BirthMonth" id="Birth_Month">
+                        <option value="-1">Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                    </select>
+                    <select name="BirthYear" id="Birth_Year">
+                        <option value="-1">Year</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                    </select>
+
+                </td>
+            </tr> -->
+
+            <tr>
+                <td>Date of Birth :</td>
+                <td><input type="date" name="date" />
+                    <!-- <input type="datetime" name="datetime"/>
+                    <input type="datetime-local" name="datetime"/>
+                    <input type="week" name="datetime"/> -->
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address :</td>
+                <td><textarea name="address" rows="5" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>City :</td>
+                <td><input type="text" name="city" maxlength="20" placeholder="enter your city">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pin Code :</td>
+                <td><input type="number" name="pin" maxlength="6" placeholder="72xxx8">
+                </td>
+            </tr>
+
+            <tr>
+                <td>State :</td>
+                <td><input type="text" name="state" maxlength="20" placeholder="enter your state">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Country :</td>
+                <td><input type="text" name="country" maxlength="20" placeholder="enter your country">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobbies :</td>
+                <td><input type="checkbox" name="Drawing" value="Drawing">Drawing
+                    <input type="checkbox" name="Singing" value="Singing">Singing
+                    <input type="checkbox" name="Dancing" value="Dancing">Dancing
+                    <input type="checkbox" name="Cooking" value="Cooking">Cooking<br />
+                    <input type="checkbox" name="Others" value="Others">Others
+                    <input type="text" name="othershobbies" maxlength="30" placeholder="Other Hobbies">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Qualification :</td>
+                <td><input type="checkbox" name="High_School" value="High_School">High School<br>
+                    <input type="checkbox" name="Higher_School" value="Higher_School">Higher School<br>
+                    <input type="checkbox" name="Graduation" value="Graduation">Graduation<br>
+                    <input type="checkbox" name="Post_Graduation" value="Post_Graduation">Post Graduation<br />
+                    <input type="checkbox" name="Phd" value="Phd">Phd
+                </td>
+            </tr>
+
+            <tr>
+                <td>Courses Applied For :</td>
+                <td><input type="radio" name="BCA" value="BCA">Bachelor of Computer Application<br>
+                    <input type="radio" name="MCA" value="MCA">Master of Computer Application<br>
+                    <input type="radio" name="BCOM" value="BCOM">Bachelor of Commerce<br>
+                    <input type="radio" name="BA" value="BA">Bachelor of Arts<br />
+                    <input type="radio" name="BSC" value="BSC">Bachelor of Science
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+
+</body>
+
+</html>
